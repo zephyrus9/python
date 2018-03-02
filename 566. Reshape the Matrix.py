@@ -29,6 +29,7 @@ class Solution:
 			items = [y for x in nums for y in x]
 			return [items[x*c: ((x+1)*c)] for x in range(r)]
 
+
 if __name__ == '__main__':
 	nums = [[1,2], [3,4]]
 	r = 1
