@@ -11,6 +11,7 @@ class Solution:
         :return:
         """
         l = len(num1) + len(num2)
+        print(l//2)
         return self.findKth(num1, num2, l//2) if l%2==1 else \
             (self.findKth(num1, num2,l//2 - 1) + self.findKth(num1, num2, l//2))/2
 
@@ -30,6 +31,6 @@ class Solution:
 
 
 if __name__ == '__main__':
-    num1 = [1,1,5,]
-    num2 = [2,3,4]
+    num1 = []
+    num2 = [2]
     print(Solution().findMedianSortedArrays(num1, num2))
