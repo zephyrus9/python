@@ -65,3 +65,15 @@ def f(num):
     else:
         return num * f(num - 1)
 print(f(4))
+
+"""
+6. 递归求和
+"""
+def list_sum(num):
+    if len(num) == 1:
+        return num[0]
+    else:
+        return num[0] + list_sum(num[1:])
+
+print("Recursion: ")
+print(list_sum([i for i in range(10)]))
