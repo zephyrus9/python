@@ -4,7 +4,7 @@ import math
 
 
 '''
-1. 利用递归的思想将将整数转换成任意进制表示的字符串形式
+1. 利用递归的思想将整数转换成任意进制表示的字符串形式
 '''
 def to_str(n, base):
     convert_string = "0123456789ABCDEF"

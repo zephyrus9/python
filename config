@@ -1,0 +1,12 @@
+# 添加内容
+# github
+Host github.com
+	HostName github.com
+	PreferedAuthentications publickey
+	IdentyFile ~/.ssh/id_rsa_github
+
+# huawei
+Host devcloud.huawei.com
+	HostName devclouf.huawei.com
+	PreferedAuthentications publickey
+	IdentyFile ~/.ssh/id_rsa
